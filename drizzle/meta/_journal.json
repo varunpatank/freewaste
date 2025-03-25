@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1741498252369,
+      "tag": "0000_sleepy_lester",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1741544750484,
+      "tag": "0001_worried_peter_quill",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1741917844059,
+      "tag": "0002_black_black_tarantula",
+      "breakpoints": true
+    }
+  ]
+}
