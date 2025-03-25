@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import { MapPin, Camera, Map } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { PageHeader } from '@/components/PageHeader'
@@ -16,6 +16,8 @@ import {
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { useUser } from '@auth0/nextjs-auth0/client'
 import { useRouter } from 'next/navigation'
+import 'leaflet/dist/leaflet.css';
+
 
 const MapContainer = dynamic(
   () => import('react-leaflet').then((mod) => mod.MapContainer),
